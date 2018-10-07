@@ -25,25 +25,39 @@ h1 {
     margin-right: auto;
 }
 
-.musicurated {
-  position: absolute;
-  margin-left: 1%;
-  height: 75px;
-  width: 174px;
-}
-
-.musicurated:hover {
-  margin-left: 1%;
-  background: url("images/musicurated_hover.png") no-repeat;
-  background-size: 174px; 75px;
-}
-
 .summary {
     font-weight: 600;
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 0;
+}
+
+.summary hr{
+  width: 70%;
+  border-color: #161435;
+  background-color: #161435;
+}
+
+.social img:hover, .box img:focus, .box img:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.social hr{
+  width: 70%;
+  border-color: #161435;
+  background-color: #161435;
+}
+
+#telegram {
+  max-width: 400px;
+  display: inline-block;
+}
+
+#twitter {
+  max-width: 450px;
+  display: inline-block;
 }
 
 .title{
@@ -65,7 +79,8 @@ h1 {
 
 .box {
     background-color: rgba(0, 168, 158, 0.5);
-    max-width: 350px;
+    width: 350px;
+    height: 220px;
     color: #161435;
     border-radius: 15px;
     display: inline-block;
@@ -109,8 +124,6 @@ h1 {
 .box img {
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .box img:hover, .box img:focus, .box img:active {
@@ -124,5 +137,5 @@ h1 {
 }
 
 .size {
-    height: 60px;
+    height: 80px;
 }

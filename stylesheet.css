@@ -39,7 +39,7 @@ h1 {
   background-color: #161435;
 }
 
-.social img:hover, .box img:focus, .box img:active {
+img:hover, img:focus, img:active {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
@@ -124,11 +124,6 @@ h1 {
 .box img {
   margin-left: 5px;
   margin-right: 5px;
-}
-
-.box img:hover, .box img:focus, .box img:active {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
 }
 
 #music{
